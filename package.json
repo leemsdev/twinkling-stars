@@ -1,0 +1,32 @@
+{
+	"name": "twinklingstars",
+	"version": "1.0.0",
+	"description": "A twinkling stars animation using html5 canvas and a simple ecs",
+	"homepage": "https://github.com/leemsdev/twinkling-stars#readme",
+	"bugs": {
+		"url": "https://github.com/leemsdev/twinkling-stars/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/leemsdev/twinkling-stars.git"
+	},
+	"license": "ISC",
+	"author": "Lee McGowan (leems)",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"compile": "tsc",
+		"dev": "npx esbuild src/index.ts --bundle --outfile=public/lib/bundle.js --format=iife --watch",
+		"run": "./scripts/run.sh"
+	},
+	"devDependencies": {
+		"esbuild": "^0.25.5",
+		"typescript": "^5.8.3",
+		"webpack-cli": "^6.0.1"
+	},
+	"dependencies": {
+		"alea": "^1.0.1",
+		"simplex-noise": "^4.0.3"
+	}
+}

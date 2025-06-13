@@ -1,0 +1,49 @@
+
+# dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# typescript build output
+dist/
+build/
+out/
+
+# typescript cache
+*.tsbuildinfo
+
+# next.js / vite / etc.
+.next/
+.vercel/
+.vite/
+.cache/
+
+# testing
+coverage/
+.nyc_output/
+
+# misc
+.env
+.env.local
+.env.*.local
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# editor cruft
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+public/lib
+public/out

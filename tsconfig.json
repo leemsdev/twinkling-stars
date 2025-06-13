@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		// Ensure that .d.ts files are created by tsc, but not .js files
+		"declaration": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"strict": true,
+		"outDir": "./public/out",
+		"rootDir": "./src",
+		"baseUrl": "./src",
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"target": "es2015",
+	},
+	"include": [
+		"./src/**/*.ts"
+	]
+}

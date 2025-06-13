@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+	<h1>Twinkling stars</h1>
+	<div class="container">
+		<canvas id="canvas"></canvas>
+	</div>
+
+	<div id="stats">
+	</div>
+
+	<div class="controls">
+		<p>Space to regenerate</p>
+		<label>
+			<span>Star count</span>
+			<input type="number" id="star-count"></input>
+		</label>
+		<label>
+			<span>Planet count</span>
+			<input type="number" id="planet-count"></input>
+		</label>
+
+		<p id="info"></p>
+		<p id="error"></p>
+	</div>
+
+	<script defer src="lib/bundle.js"></script>
+</body>
+
+</html>
